@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Compiling hello.cpp...'
                 // Replace YOUR_SRN with your actual SRN value
-                sh 'g++ main/hello.cpp -o PES2UG22CS441-1'
+                sh 'g++ hello.cpp -o PES2UG22CS441-1'
             }
         }
         stage('Test') {
